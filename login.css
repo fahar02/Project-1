@@ -1,0 +1,63 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-image: url("./photos/360_F_577750106_a1K1BssbgP35XkFfcaFYbEhXv5MXVofr.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#heading
+{
+margin-top:50px;
+}
+form
+{
+display: flex;
+align-items:center;
+justify-content: center;
+}
+form fieldset
+{
+color:black;
+height:600px;
+width:600px;
+display:flex;
+justify-content:space-evenly;
+font-size:25px;
+font-weight: 1000;
+background-color:rgb(243, 243, 85);
+
+}
+table
+{
+ border:10px;
+}
+#submit
+{
+    height:80px;
+    width:120px;
+    font-size:25px;
+}
+#cancel
+{
+    
+    height:80px;
+    width:120px;
+    font-size:25px;
+    
+}
+#submitlink
+{
+    font-weight: 1000;
+    color:black;
+    text-decoration: none;
+}
+#cancellink
+{
+    font-weight: 1000;
+    color:black;
+    text-decoration: none;
+}

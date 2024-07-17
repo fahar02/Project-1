@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="./photos/gym-logo-fitness-logo-strong-rhino-doing-exer-design-template-22f927abb05c86a9ada185067f621fa1_screen.jpg">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form action="./Index.html" method="post">
+        <fieldset>
+            <legend><h1 id="heading">Registration form</h1></legend>
+           <table cellspace="0px" cellpadding="0px">
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+              <td><label for="fname">Full Name:</label></td>
+              <td><input  id="fname" type="text" placeholder="full name"required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input id="email" type="email" placeholder="email@gmail.com" required></td>
+              </tr>
+              <tr>
+                <td><label for="number">Number:</label></td>
+                <td><input id="number" type="number" required></td>
+              </tr>
+              <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input id="age" type="number" required ></td>
+              </tr>
+              <tr>
+                <td><label for="">Gender:</label></td>
+                <td><input id="male" type="radio" name="gender">Male
+                    <input id="female" type="radio" name="gender">Female
+                
+                
+                </td>
+              </tr>
+              <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input id="password" type="password" required></td>
+              </tr>
+              <tr>
+                <td><label for="password">Comfirm Password:</label></td>
+                <td><input id="password" type="password" required></td>
+              </tr>
+              <tr>
+                <td><button id="submit"><a id="submitlink" href="./Index.html" target="_self" onclick="show()">Submit</a></td>
+                <td><button id="cancel"><a id="cancellink" href="./Index.html" target="_self">Cancel</a></button></td>
+              </tr>
+
+           </table>
+        </fieldset>
+    
+    </form>
+<script>
+    function show()
+    {
+        alert("Regestation successfull");
+    }
+</script>
+</body>
+</html>

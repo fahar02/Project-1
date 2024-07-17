@@ -1,0 +1,357 @@
+/* making margin and padding zero*/
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+/*header size and color*/
+header
+{
+    height:80px;
+    width:100%;
+    background-color: black;
+    
+}
+/*header logo size and position */
+#imagelogo
+{
+    margin-left:60px;
+    height:80px;
+    width:150px;
+}
+/* set size and width of header menu and set into center */
+#header_menu
+{
+    height:80px;
+    width:1000px;
+    color: yellow;
+    font-size: 30px;
+    display: flex;   
+    align-items: center;
+    justify-content:space-evenly;
+    justify-content: space-between;
+
+}
+/* herder logo and header menu is combine into single line*/
+.header_body
+{
+    display: flex;
+    justify-content: space-between;
+}
+/*make the header menu hover to red color*/
+#header_menu a:hover
+{
+    color: red;
+
+}
+/*adding color to home link*/
+#homelink
+{
+    color: yellow;
+    
+}
+/*login link  adding color */
+#login
+{
+    color: yellow;
+    
+
+}
+/* adding color to signup*/
+#signup
+{
+    color: yellow;
+
+}
+/*set gym background image */
+#gymbackground
+{
+    height:400px;
+    width:100%;
+
+}
+/*about box set size */
+#aboutbox
+{
+    height:150px;
+    width:100%; 
+}
+/* adding about content*/
+#about
+{
+    text-indent:150px;
+    font-size:20px;
+}
+/* services section background image*/
+#service
+{
+    height:1250px;
+    width:100%;
+    background-color: rgb(255, 255, 84);
+    
+}
+/* content of services*/
+#servicetable
+{
+    height:1200px;
+    width:1100px;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left:150px;
+   
+}
+/* all image in service section is set*/
+#serviceimage
+{
+    height:250px;
+    width:250px;
+}
+.head
+{
+ color:red;
+}
+#sportshead
+{
+    margin-left:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sports
+{
+    height:600px;
+    width:100%;
+    background-color: rgb(255, 235, 179);
+}
+#foot
+{
+    
+    height:400px;
+    width:100%;
+    background-color: black;
+    display: flex;
+    
+
+}
+#footerlogo
+{
+    position: relative;
+    top:50px;
+    left:30px;
+    height:200px;
+    width:200px;
+}
+#main
+{
+    height:400px;
+    width:1200px;
+    display:flex;
+    justify-content:space-evenly;
+    color:wheat;
+
+}
+.box
+{
+    margin-top: 90px;
+    margin-left: 40px;
+    font-weight:25px;
+
+}
+#googleplay
+{
+    height:60px;
+    width:120px;
+}
+#iphone
+{
+    height:60px;
+    width:120px;
+
+}
+/*code for responsive web page */
+@media  screen and (max-width:500px) 
+{
+/*header size and color*/
+header
+{
+    height:40px;
+    width:100%;
+    background-color: black;
+    
+}
+/*header logo size and position */
+#imagelogo
+{
+    margin-left:30px;
+    height:40px;
+    width:30px;
+}
+/* set size and width of header menu and set into center */
+#header_menu
+{
+    height:60px;
+    width:500px;
+    color: yellow;
+    font-size: 15px;
+    display: flex;   
+    align-items: center;
+    justify-content:space-evenly;
+    justify-content: space-between;
+
+}
+/* herder logo and header menu is combine into single line*/
+.header_body
+{
+    display: flex;
+    justify-content: space-between;
+}
+/*make the header menu hover to red color*/
+#header_menu a:hover
+{
+    color: red;
+
+}
+/*adding color to home link*/
+#homelink
+{
+    color: yellow;
+    
+}
+/*login link  adding color */
+#login
+{
+    color: yellow;
+    
+
+}
+/* adding color to signup*/
+#signup
+{
+    color: yellow;
+
+}
+/*set gym background image */
+#gymbackground
+{
+    height:200px;
+    width:100%;
+
+}
+/*about box set size */
+#aboutbox
+{
+    height:70px;
+    width:100%; 
+}
+/* adding about content*/
+#about
+{
+    text-indent:70px;
+    font-size:10px;
+}
+#aboutheading
+{
+    font-size:15px;
+}
+/* services section background image*/
+#service
+{
+    height:800px;
+    width:100%;
+    background-color: rgb(255, 255, 84);
+    
+}
+#serviceshead
+{
+    font-size:15px;
+}
+/* content of services*/
+#servicetable
+{
+    height:600px;
+    width:500px;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left:70px;
+   
+}
+/* all image in service section is set*/
+#serviceimage
+{
+    height:100px;
+    width:100px;
+}
+.head
+{
+ color:red;
+ font-size:15px;
+}
+#para
+{
+    font-size:10px;
+}
+#sportshead
+{
+    font-size:15px;
+    margin-left:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sports
+{
+    height:600px;
+    width:100%;
+    background-color: rgb(255, 235, 179);
+}
+#foot
+{
+    
+    height:400px;
+    width:100%;
+    background-color: black;
+    display: flex;
+    
+
+}
+#footerlogo
+{
+    position: relative;
+    top:25px;
+    left:15px;
+    height:100px;
+    width:100px;
+}
+#main
+{
+    height:200px;
+    width:600px;
+    display:flex;
+    justify-content:space-evenly;
+    color:wheat;
+
+}
+.box
+{
+    margin-top: 45px;
+    margin-left: 20px;
+    font-weight:10px;
+
+}
+#googleplay
+{
+    height:30px;
+    width:60px;
+}
+#iphone
+{
+    height:30px;
+    width:60px;
+
+}
+
+
+   
+}

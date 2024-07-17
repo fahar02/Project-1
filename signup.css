@@ -1,0 +1,64 @@
+
+*
+{
+    margin: 0px;
+    padding:0px;
+    
+}
+body
+{
+    background-image: url("./photos/signupbackground.webp");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.signup
+{
+   
+    border: 5px 5px 5px 5px;
+    height:300px;
+    width:500px;
+    margin-top:200px;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.726);
+}
+#gmail
+{
+    height:50px;
+    width:50px;
+
+}
+#instagram
+{
+    height:50px;
+    width:50px;
+
+}
+#signup
+{
+    height:60px;
+    width:80px;
+    font-size:25px;
+    text-decoration: none;
+}
+
+#cancel
+{
+    height:60px;
+    width:80px;
+    font-size:25px;
+}
+#signuplink
+{
+    text-decoration: none;
+}
+#cancellink
+{ 
+    text-decoration: none;
+
+}
